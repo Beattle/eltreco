@@ -1,0 +1,26 @@
+.modern-page-title {
+	color: #888;
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+div.modern-page-navigation { 
+	padding: 0.5em 0;}
+div.modern-page-navigation a, 
+span.modern-page-current, 
+span.modern-page-dots
+{
+	padding-left: 0.75em;
+	padding-right: 0.5em;
+	text-decoration: none;
+}
+div.modern-page-navigation a.modern-page-first, 
+div.modern-page-navigation span.modern-page-first { 
+ }
+span.modern-page-current { 
+	font-weight: bold; }
+div.modern-page-navigation a, 
+span.modern-page-current, 
+div.modern-page-navigation a.modern-page-previous, 
+span.modern-page-dots { 
+		font-size: 14px;
+}

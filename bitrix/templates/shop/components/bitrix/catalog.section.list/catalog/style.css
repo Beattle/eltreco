@@ -1,0 +1,44 @@
+.catalog
+{
+	width: 100%;
+	line-height: normal;
+}
+.catalog .item
+{
+	margin-bottom: 50px;
+}
+.catalog .promo-link
+{
+	float: right;
+	width: 250px;
+	margin-top: 10px;
+}
+.catalog .item-name
+{
+	margin-left: 52px;
+}
+.catalog div.line
+{
+	height: 30px;
+	background: url(images/line.gif) repeat-x center center;
+	margin-top: 10px;
+}
+.catalog div.item-line
+{
+	height: 30px;
+	width: 180px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url(images/line2.gif);
+}
+.catalog .circle
+{
+	height: 30px;
+	width: 30px;
+	background-image: url(images/circle2.gif);
+	color: #309810;
+	line-height: 30px;
+	margin-left: 40px;
+	font-weight: bold;
+	text-align: center;
+}

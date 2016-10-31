@@ -1,0 +1,26 @@
+/* Header menu*/
+ul.header-menu
+{
+	font-size: 80%;
+	height: 30px;
+	line-height: 30px;
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+	position: relative; /*IE bug*/
+}
+ul.header-menu li
+{
+	padding: 0 30px;
+	background: url(images/header_menu_split.gif) no-repeat;
+	float: left;
+}
+ul.header-menu li a,
+ul.header-menu li a.selected:link, 
+ul.header-menu li a.selected:visited, 
+ul.header-menu li a.selected:active, 
+ul.header-menu li a.selected:hover
+{
+	color: #b9c9c9;
+}
+

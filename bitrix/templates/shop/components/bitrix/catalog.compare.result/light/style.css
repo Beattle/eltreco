@@ -1,0 +1,67 @@
+.catalog-compare-result .scrollable
+{
+	width: 740px;
+	overflow: auto;
+	overflow-y: hidden;
+	margin-left: 300px;
+	min-width: 600px !important;
+	border-right: 1px solid #eee;
+	padding-bottom: 2px;
+}
+
+.catalog-compare-result .scrollable::-webkit-scrollbar
+{
+	height: 18px;
+}
+
+.catalog-compare-result .scrollable::-webkit-scrollbar-track
+{
+	background: #59b526;
+}
+
+.catalog-compare-result .scrollable::-webkit-scrollbar-thumb
+{
+	background: #114f98;
+}
+
+
+.catalog-compare-result .data-table thead tr:first-child th
+{
+	border-top: 1px solid #eee;
+	margin-top: -1px;
+}
+.catalog-compare-result .data-table tr:last-child th
+{
+	border-bottom: 1px solid #eee;
+}
+.catalog-compare-result .data-table tr:nth-child(2n) td,
+.catalog-compare-result .data-table tr:nth-child(2n) th
+{
+	background-color: #eee;
+}
+.catalog-compare-result .data-table th
+{
+	background-color: #fff;
+	position: absolute;
+	width: 292px;
+	border-top: none;
+	border-bottom: none;
+	border-color: #eee;
+	margin-left: -300px;
+}
+.catalog-compare-result .data-table thead td
+{
+	background-color: #fff;
+}
+.catalog-compare-result .data-table td
+{
+	border-top: none;
+	border-bottom: none;
+	border-color: #eee;
+}
+.catalog-compare-result .data-table
+{
+	border-left: none;
+	border-right: none;
+	border-color: #eee;
+}

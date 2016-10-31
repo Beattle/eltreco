@@ -1,0 +1,26 @@
+/* Bottom menu*/
+ul.bottom-menu
+{
+	font-size: 14px;
+	list-style: none;
+	margin: 0 auto; 
+	padding: 0;
+	position: relative; /*IE bug*/
+	float: left;
+}
+ul.bottom-menu li
+{
+	text-align: center;
+	padding: 0 15px;
+	background: url(images/bottom_menu_split.gif) left center no-repeat;
+	float: left;
+}
+ul.bottom-menu li.menu-item-left
+{
+	background: none;
+	padding-left: 0;
+}
+ul.bottom-menu li.menu-item-right
+{
+	padding-right: 0;
+}

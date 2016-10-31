@@ -1,0 +1,92 @@
+.left-column,
+.left-column-big
+{
+	vertical-align: top;
+}
+div.left-column,
+div.left-column-big
+{
+	float: left;
+}
+.left-column .column-content,
+.left-column-big .column-content
+{
+	padding-right: 40px;	
+}
+.left-column
+{
+	
+}
+.left-column-big
+{
+	width: 75%;
+}
+.right-column,
+.right-column-small
+{
+	vertical-align: top;
+}
+div.right-column,
+div.right-column-small
+{
+	float: right;
+}
+.right-column
+{
+	width: 570px;
+}
+.right-column-small
+{
+	width: 25%;
+}
+
+.right-panel
+{
+	right: 0;
+	white-space: nowrap;
+	width: 270px;
+	vertical-align: top;
+	position: absolute;
+	z-index: 99;
+}
+.right-panel ul
+{
+	list-style-type: none;
+	font-size: 110%;
+}
+.right-panel ul li
+{
+	background: url(/images/list.gif) no-repeat center left;
+	margin-bottom: 10px;
+	padding-left: 30px;
+}
+
+.right-panel ul li.green-link
+{
+	background: url(/images/green.jpg) no-repeat center left;
+	height: 36px;
+	line-height: 36px;
+}
+.right-panel ul li.green-link a
+{
+	color: #fff;
+}
+.right-panel ul li.yashare{
+	background:none;
+}
+
+/* not for a production server
+.logoShop:after{
+    content: "development";
+    color: #114f98;
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+ */
+ 
+ /* fix for bootstrap and admin html editor */
+ .adm-workarea textarea{
+	line-height: normal;
+ }

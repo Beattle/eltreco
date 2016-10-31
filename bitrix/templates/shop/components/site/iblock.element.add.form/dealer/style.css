@@ -1,0 +1,35 @@
+.partner
+{
+
+}
+.partner td
+{
+	padding-top: 10px;
+}
+.partner .input-title
+{
+	font-weight: bold;
+}
+.partner  label
+{
+	font-size: 90%;
+}
+.partner .starrequired
+{
+	color: #f00;
+}
+.partner input[type="text"],
+.partner input[type="password"],
+.partner textarea,
+.partner select
+{
+	width: 240px;
+}
+.partner input[type="submit"]
+{
+	float: right;
+}
+.partner input[readonly="readonly"]
+{
+	color: #888;
+}

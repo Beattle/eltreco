@@ -1,0 +1,91 @@
+.catalog-section .promo-link
+{
+	float: right;
+	width: 250px;
+	margin-top: 10px;
+}
+.catalog-section ul
+{
+	margin-top: 20px;
+	list-style-type: none;
+}
+.catalog-section ul li
+{
+	float: left;
+	width: 33%;
+	padding: 0;
+}
+.offer-item
+{
+	width: 250px;
+	margin: 0 auto;
+}
+.offer-description
+{
+	text-align: center;
+	font-size: 85%;
+	padding: 10px 0 0 0;
+}
+.offer-available
+{
+	text-align: center;
+	padding-top: 10px;
+}
+.offer-available .available {
+	margin: 0 auto;
+}
+.offer-name
+{
+	height: 38px;
+	width: 250px;
+	text-align: center;
+	background: url(images/offer.gif) no-repeat center;
+	padding: 5px 0;
+	color: #fff;
+	vertical-align: top;
+}
+.offer-name .price
+{
+	padding-top: 5px;
+	font-size: 120%;
+}
+.offer-name a.link
+{
+	color: #fff;
+	text-decoration: none;
+}
+.offer-picture
+{
+	padding: 20px 0;
+	height: 200px;
+	overflow: hidden;
+	vertical-align: bottom;
+	text-align: center;
+}
+.incart .submit
+{
+	margin: 10px 0 0 0;
+	background: url(images/cart.png) no-repeat left center;
+	padding-left: 27px;
+	margin-left: 5px;
+	height: 20px;
+}
+.incart .submit input
+{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	color: #0d4f99;
+	border-bottom: 1px solid #0d4f99;
+	font-size: 120%;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	position: absolute;
+	height: 20px;
+}
+.catalog-section ul li.clear
+{
+	float: none;
+	width: 100%;
+}

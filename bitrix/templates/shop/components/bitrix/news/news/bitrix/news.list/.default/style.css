@@ -1,0 +1,30 @@
+div.news-list .item-position  {
+	font-style: italic;
+	font-size: 110%;
+	margin: 3px 0 8px;
+}
+div.news-list img.preview_picture {
+	float:left;
+	margin:0 20px 6px 0;
+}
+.news-list .news-item {
+	margin-top: 20px;
+}
+.news-list .news-name {
+	margin-left: 50px;
+}
+.news-date
+{
+	position: relative;
+	margin-left: -37px;
+	margin-top: -20px;
+}
+.pager
+{
+	width: 19px;
+}
+.news-list h2
+{
+	line-height: 30px;
+	margin: 0 18px;
+}

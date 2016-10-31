@@ -1,0 +1,19 @@
+.map-columns ul {
+	list-style-type: none;
+}
+.map-columns li
+{
+	padding: 5px 0;
+}
+ul.map-level-0 a {
+	font-weight: bold;
+}
+
+ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
+	font-weight: normal;
+	margin-left: 40px;
+}
+
+.map-columns td {
+	vertical-align: top;
+}

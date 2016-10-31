@@ -1,0 +1,30 @@
+#faq ul
+{
+    padding: 0;
+    list-style-type: none;
+}
+#faq li
+{
+    margin: 0 0 20px 0;
+}
+#faq .name
+{
+    cursor: pointer;
+    color: #0d4f99;
+    border-bottom: 1px dashed #003bb4;
+	font-size: 140%;
+}
+#faq .description
+{
+    padding: 10px 0 10px 30px;
+    display: none;
+}
+#faq .sel .description
+{
+    display: block;
+}
+#faq .sel .name
+{
+	border-bottom: none;
+	color: #4f5356;
+}

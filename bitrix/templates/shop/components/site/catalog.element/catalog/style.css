@@ -1,0 +1,198 @@
+.catalog-element .image
+{
+	margin-top: 25px;
+	height: 440px;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.catalog-element .image td
+{
+	/*
+	vertical-align: top;
+	text-align: center;
+	*/
+}
+.catalog-element .image .photo
+{
+	/* height: 430px; */
+}
+.catalog-element .image .first.photo
+{
+	/* height: 654px; */
+}
+.catalog-element .image .first.photo
+{
+	z-index: -500;
+	position: absolute;
+	bottom: -170px;
+	left: -100px;
+	
+	/*
+	bottom: 0px;
+	margin-bottom: -170px;
+	margin-left: -100px;
+	*/
+}
+
+#order_form
+{
+	margin-left: 20px;
+	position: absolute;
+	z-index: 1;
+}
+#order_form.hide
+{
+	display: none;
+}
+#navigation
+{
+	margin-left: 37px;
+}
+.pager-table
+{
+	position: relative;
+	z-index: 99;
+}
+.pager
+{
+	width: 19px;
+}
+.catalog-element h1
+{
+	line-height: 30px;
+	margin: 0 18px;
+}
+.catalog-element .documents
+{
+	border-top: 2px solid #d0d0d0;
+	margin-top: 20px;
+	padding-top: 30px;
+}
+.catalog-element .document
+{
+	float: left;
+	width: 120px;
+	height: 130px;
+	padding: 0 10px 0 20px;
+}
+.catalog-element .offer-description
+{
+	margin-left: 55px;
+}
+.catalog-element .offer-description li
+{
+	margin-left: 25px;
+}
+.catalog-element .links
+{
+	width: 270px;
+}
+
+.catalog-element .left-column {
+	position: relative;
+}
+.catalog-element .photos
+{
+	margin-top: 15px;
+	position: absolute;
+	height: 90px;
+	width: 100%;
+}
+.catalog-element .photos.first td.item
+{
+	background: url(images/photos.png) repeat-x;
+}
+.catalog-element .photos td.item
+{
+	background: url(images/photos3.png) repeat-x;
+	text-align: center;
+}
+.catalog-element .photos.first td.border-left
+{
+	background: url(images/pfl.png) no-repeat;
+}
+.catalog-element .photos.first td.border-right
+{
+	background: url(images/pfr.png) no-repeat;
+}
+.catalog-element .photos td.border-left
+{
+	background: url(images/pl.png) no-repeat;
+}
+.catalog-element .photos td.border-right
+{
+	background: url(images/pr.png) no-repeat;
+}
+.catalog-element .photos td.border-left,
+.catalog-element .photos td.border-right
+{
+	width: 20px;
+	padding: 0;
+}
+.catalog-element .photos .block .box
+{
+	/* padding: 0 5px; */
+}
+.catalog-element .photos .block.select .box
+{
+
+}
+.catalog-element .photos .block .box img
+{
+	border: 2px solid #eeeeee !important;	
+}
+.catalog-element .photos .block.select .box img
+{
+	border: 2px solid #81c214 !important;
+}	
+.catalog-element .photos .arrow
+{
+	height: 8px;
+}
+.catalog-element .photos .block.select .arrow
+{
+	background: url(images/arrow.png) no-repeat center top;
+}
+.catalog-element .photos .photo
+{
+	cursor: pointer;
+}
+.catalog-element .photos .block.select .photo
+{
+	cursor: default;
+}
+.catalog-element .photos .block
+{
+	margin: -4px auto 0 auto;
+}
+.catalog-element .features
+{
+	padding-top: 40px;
+	width: 450px;
+}
+.catalog-element .details
+{
+	margin-top: 200px;
+}
+.catalog-element .details td
+{
+	vertical-align: top;
+}
+.catalog-features 
+{
+	width: 450px;
+	font-style: italic;
+	font-size: 85%;
+}
+.catalog-features .item
+{
+	float: left;
+	width: 135px;
+	height: 130px;
+	padding-right: 15px;
+}
+.catalog-features .item div
+{
+	margin: 5px 0 0 20px;
+}

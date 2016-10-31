@@ -1,0 +1,12 @@
+.bottom-news-line .news-date-time {
+	font-style: italic;
+	font-size: 80%;
+}
+.bottom-news-line .news-item {
+	margin-top: 20px;
+	font-size: 16px;
+}
+.bottom-news-line .news-name {
+	margin: 3px 0 0 35px;
+	line-height: 18px;
+}

@@ -1,0 +1,51 @@
+.shopChooseCont #small .catalog-item { width:22%!important; border:1px solid #ced5e5;margin: 0 1.8%; }
+
+#small  div a span {font-size:12px!important;}
+#small  .item-place {width: 210px!important;}
+#small  .item-place img {max-height: 111px!important; max-width:160px;}
+#small .shopCatalogItemT {width: 210px!important; height: 160px!important;}
+#small  div a em {margin:25px 0 45px 0;font-size:21px!important;}
+
+#small .catalog-item:first-child {margin-left:0;}
+#small .catalog-item:last-child {margin-right:0;}
+
+.noback {background:none!important;}
+
+.shopChooseTabs.header {
+	height:30px;
+        line-height:30px;
+	padding-left:0;
+	text-transform:uppercase;
+	color:#fff;
+        background-color:#114f98;
+        font-weight:bold;
+	width:100%;
+
+}
+
+.shopChooseTabs.header ul li {
+    border-left: 1px solid #ced5e5;
+}
+
+.shopChooseTabs.header ul li.dot a.active {
+	color:inherit;
+	font:inherit;
+}
+
+.shopChooseTabs.header ul li.dot a {
+    border-bottom: 1px dashed #ced5e5;
+    color: #ced5e5;
+    font: inherit;
+}
+
+.shopChooseTabs.header ul li a {
+    border-bottom: 1px solid #ced5e5;
+    color: #ced5e5;
+    font: inherit;
+    text-decoration: none;
+}
+
+.shopChooseCont {margin-top:25px!important; width:100%!important;}
+.catalog-item .header {padding:0!important;}
+
+.boxes #small div a em {margin:15px 0 20px;}

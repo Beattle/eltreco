@@ -1,0 +1,26 @@
+.comments-section td {
+	padding: 0 20px 20px 0;
+}
+.comments-section .hide{
+	display: none;
+}
+.comments-section .item-name {
+	font-size: 180%;
+	padding-left: 80px;
+}
+.comments-section .item-position  {
+	padding-left: 80px;
+	font-style: italic;
+	font-size: 125%;
+	margin-top: 8px;
+}
+.comments-section .item-name a {
+	text-decoration: none;
+}
+.comments-section img {
+	border: 5px solid #eeeeee;
+}
+.comments-section .all-link {
+	font-size: 110%;
+	margin-top: 10px;
+}

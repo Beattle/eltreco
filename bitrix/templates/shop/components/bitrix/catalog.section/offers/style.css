@@ -1,0 +1,67 @@
+.section-details
+{
+	margin: 50px 0;
+	width: 100%;
+}
+.section-details td
+{
+	vertical-align: top;
+}
+.section-picture
+{
+	padding-left: 10px;
+	text-align: right;
+}
+.catalog-section ul
+{
+	margin-top: 20px;
+	list-style-type: none;
+}
+.catalog-section ul li
+{
+	float: left;
+	width: 33%;
+	padding: 0;
+}
+.offer-item
+{
+	width: 250px;
+	margin: 0 auto;
+}
+.offer-description
+{
+	text-align: center;
+	font-size: 85%;
+	width: 250px;
+}
+.offer-name
+{
+	height: 29px;
+	width: 250px;
+	text-align: center;
+	background: url(images/offer.gif) no-repeat center;
+	line-height: 29px;
+	padding: 10px 0;
+}
+.offer-name a.link
+{
+	color: #fff;
+	text-decoration: none;
+}
+.offer-picture
+{
+	text-align: center;
+	height: 200px;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+.catalog-section ul li.clear
+{
+	float: none;
+	width: 100%;
+}
+.catalog-section .product-sections
+{
+	float: right;
+	margin-top: 5px;
+}

@@ -1,0 +1,90 @@
+/* Catalog menu*/
+.catalog-menu
+{
+	width: 100%;
+	line-height: normal;
+}
+.catalog-menu td
+{
+	vertical-align: top;
+	text-align: center;
+}
+.catalog-menu td .item-name
+{
+	line-height: 32px;
+	height: 32px;
+}
+.catalog-menu td.first .item-name
+{
+	padding-left: 52px;
+	text-align: left;
+}
+.catalog-menu td.last .item-name
+{
+	white-space: nowrap;
+	padding-right: 55px;
+	text-align: right;
+}
+.catalog-menu td.selected .item-name h1
+{
+	white-space: nowrap;
+	font-size: 30px;
+}
+.catalog-menu td div.line
+{
+	height: 30px;
+	background: url(images/line.gif) repeat-x center center;
+	margin-top: 15px;
+}
+.catalog-menu td div.item-line
+{
+	height: 30px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.catalog-menu td.selected div.item-line
+{
+	background-image: url(images/line2.gif);
+}
+.catalog-menu td .circle
+{
+	height: 30px;
+	width: 30px;
+	background: url(images/circle.gif) no-repeat center center;
+	line-height: 30px;
+	margin: auto;
+	color: #105098;
+	font-weight: bold;
+}
+.catalog-menu td .circle a
+{
+	text-decoration: none;
+}
+.catalog-menu td.selected .circle
+{
+	background-image: url(images/circle2.gif);
+	color: #309810;
+}
+.catalog-menu td.first div.item-line
+{
+	width: 180px;
+	background-position: right center;
+	float: left;
+}
+.catalog-menu td.first .circle
+{
+	float: left;
+	margin-left: 40px;
+}
+.catalog-menu td.last div.item-line
+{
+	width: 180px;
+	background-position: left center;
+	float: right;
+}
+.catalog-menu td.last .circle
+{
+	float: right;
+	margin-right: 40px;
+}
